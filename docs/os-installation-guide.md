@@ -54,6 +54,6 @@ Actions that must be performed to install the OS:
 
 8\. Select and install additional OS settings.
 
-9\. Install and configure the GRUB bootloader.
+* Install and configure the GRUB bootloader.
 
-10\. Load the installed OS for the first time.
+* Load the installed OS for the first time.
