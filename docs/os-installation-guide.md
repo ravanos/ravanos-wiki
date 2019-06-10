@@ -25,8 +25,12 @@ The installer contains all the network card drivers supported by the kernel whic
 Before you start installing the OS on the target computer, it is recommended to perform the following necessary actions:
 
 1\. Make a backup copy of existing data and documents stored on the hard disk on which you plan to install.
+
 2\. Allocate space on the hard disk under the installed OS.
+
 3\. Prepare a DVD with the OS distribution.
+
 4\. Copy the necessary files to the USB disk from the OS installation DVD if you plan to install using USB disk.
+
 5\. Carry out ,if necessary, the BIOS setup of the target computer to ensure Cookies can be downloaded from the selected media.
 
