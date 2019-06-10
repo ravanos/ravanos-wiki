@@ -37,15 +37,15 @@ markdown_extensions:
   - pymdownx.extra
   - footnotes
 nav:
-- 'Openemail Overview and Support': 'index.md'
-- 'Prerequisites':
-  - 'Prepare Your System': 'prerequisite-system.md'
+- 'RavanOS Common Linux Edition': 'index.md'
+- 'Installation, configuration, maintenance OS':
+  - 'OS Installation Guide': 'prerequisite-system.md'
   - 'DNS Setup': 'prerequisite-dns.md'
 - 'Installation and Update':
   - 'Installation': 'install.md'
   - 'Update': 'install-update.md'
 - 'First Steps':
-  - 'SSL': 'firststeps-ssl.md'
+  - 'SSL': 'firststeps-ssl.md'a
   - 'Rspamd Web UI': 'firststeps-rspamd_ui.md'
   - 'Reverse Proxy': 'firststeps-rp.md'
   - 'SNAT': 'firststeps-snat.md'
