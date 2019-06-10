@@ -34,3 +34,26 @@ Before you start installing the OS on the target computer, it is recommended to 
 
 5\. Carry out ,if necessary, the BIOS setup of the target computer to ensure Cookies can be downloaded from the selected media.
 
+## Sequence of Basic Steps in Installing the Os
+
+Actions that must be performed to install the OS:
+
+1\.  Download the OS installer from the media.
+
+2\. Select the installation program and hardware settings.
+
+3\. Activate ,if any, the connection to the Ethernet network.
+
+4\. Create an administrator account and password.
+
+5\. Adjust the time.
+
+6\. Create and mount disk partitions on which the OS will be installed.
+
+7\. Select and install the necessary software.
+
+8\. Select and install additional OS settings.
+
+9\. Install and configure the GRUB bootloader.
+
+10\. Load the installed OS for the first time.
