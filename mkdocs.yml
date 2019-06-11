@@ -12,7 +12,7 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  logo: 'images/logo.png'
+  logo: 'images/ravanoslogo.png'
   favicon: 'images/favicon.png'
 # Customization
 extra:
@@ -39,7 +39,7 @@ markdown_extensions:
 nav:
 - 'RavanOS Common Linux Edition': 'index.md'
 - 'Installation, configuration, maintenance OS':
-  - 'OS Installation Guide': 'prerequisite-system.md'
+  - 'OS Installation Guide': 'os-installation-guide.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
