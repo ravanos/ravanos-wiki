@@ -2,19 +2,19 @@ Lists of packages included in the distribution / repository are contained in the
 
 In general, the path to the lists consists of:
 
-* Distribution names:
+Distribution names:
 
   * orel
   * smolensk
   * leningrad
 
-* Component names:
+Component names:
 
   * main
   * contrib
   * non-free
 
-* Architecture names:
+Architecture names:
 
   * binary-amd64
   * binary-i386
