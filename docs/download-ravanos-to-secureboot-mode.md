@@ -34,7 +34,7 @@ After that, reboot, go to BIOS and turn on the mode SecureBoot.
 
     With SecureBoot mode enabled, the modes Hibernate and Hybrid-Sleep will not be available.
 
-"Disable SecureBoot"
+Disable SecureBoot
 
 Recommended shutdown script:
 
@@ -46,6 +46,6 @@ Recommended shutdown script:
 
 The sequence of commands:
 
-    'if [-f /etc/initramfs/post-update.d/update-efi-image]; then rm /etc/initramfs/post-update.d/update-efi-image; fi
+    if [-f /etc/initramfs/post-update.d/update-efi-image]; then rm /etc/initramfs/post-update.d/update-efi-image; fi
     mv / boot/efi/EFI/ravanos/grubx64.efi /boot/efi/EFI/ravanos/grubx64.efi-old
-    grub-install - bootloader-id = ravanos`
+    grub-install - bootloader-id = ravanos
