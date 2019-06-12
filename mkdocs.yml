@@ -44,6 +44,7 @@ nav:
   - 'RavanOS Create Bootable USB Drive': 'ravanos-create-bootable-USB-flash-drive.md'
   - 'Download RavanOS Secure Boot Mode': 'download-ravanos-to-secureboot-mode.md'
   - 'List of Packages in the Distribution`': 'list-of-packages-in-the-distribution.md'
+  - 'Installing OS Eagle OS 2.12 on Fake RAID': 'installing-os-eagle-os-2.12-on-fake-raid.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
