@@ -40,6 +40,7 @@ nav:
 - 'RavanOS Common Linux Edition': 'index.md'
 - 'Installation, configuration, maintenance OS':
   - 'OS Installation Guide': 'os-installation-guide.md'
+  - 'RavanOS CLE Updates': 'ravanos-cle-updates.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
