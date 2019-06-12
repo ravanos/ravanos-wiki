@@ -1,8 +1,8 @@
 Create bootable USB flash drive
 
-Linux
+#Linux
 
-Dd utility
+  Dd utility
 
 The easiest way. It is recommended to record in this way.
 
