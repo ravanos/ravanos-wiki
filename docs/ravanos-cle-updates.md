@@ -10,7 +10,7 @@ In cases where the standard network repository for any reason is not possible to
 
 If you can not access the network repository for some reason, you can perform <updates from removable media> or <create your own repository>
 
-Before performing an OS update, update the local repository cache first. This can be done with the "Update" button in the graphical package manager, or from the command line with the command:
+Before performing an OS update, update the local repository cache first. This can be done with the `Update` button in the graphical package manager, or from the command line with the command:
 
 ```
 sudo apt update
