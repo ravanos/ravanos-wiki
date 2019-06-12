@@ -34,4 +34,4 @@ sudo apt dist-upgrade
 
 !!! Info
 
-    After completing the update, it is recommended to reboot the system.o
+    After completing the update, it is recommended to reboot the system
