@@ -43,7 +43,7 @@ nav:
   - 'RavanOS CLE Updates': 'ravanos-cle-updates.md'
   - 'RavanOS Create Bootable USB Drive': 'ravanos-create-bootable-USB-flash-drive.md'
   - 'Download RavanOS Secure Boot Mode': 'download-ravanos-to-secureboot-mode.md'
-  - 'List of Packages in the Distribution`': 'list-of-packages-in-the-distribution'
+  - 'List of Packages in the Distribution`': 'list-of-packages-in-the-distribution.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
