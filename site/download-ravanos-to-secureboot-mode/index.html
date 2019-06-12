@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="ie=edge" http-equiv="x-ua-compatible"/>
-<link href="https://wiki.ravanos.org/os-installation-guide/" rel="canonical"/>
+<link href="https://wiki.ravanos.org/download-ravanos-to-secureboot-mode/" rel="canonical"/>
 <meta content="Copy to clipboard" name="lang:clipboard.copy"/>
 <meta content="Copied to clipboard" name="lang:clipboard.copied"/>
 <meta content="en" name="lang:search.language"/>
@@ -18,7 +18,7 @@
 <meta content="[\s\-]+" name="lang:search.tokenizer"/>
 <link href="../images/favicon.png" rel="shortcut icon"/>
 <meta content="mkdocs-1.0.4, mkdocs-material-4.0.2" name="generator"/>
-<title>OS Installation Guide - RAVANOS Documentation</title>
+<title>Download RavanOS Secure Boot Mode - RAVANOS Documentation</title>
 <link href="../assets/stylesheets/application.982221ab.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/application-palette.224b79ff.css" rel="stylesheet"/>
 <meta content="#2196f3" name="theme-color"/>
@@ -77,9 +77,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-<a class="md-skip" href="#os-installation-guide" tabindex="1">
-        Skip to content
-      </a>
 <header class="md-header" data-md-component="header">
 <nav class="md-header-nav md-grid">
 <div class="md-flex">
@@ -97,7 +94,7 @@
               RAVANOS Documentation
             </span>
 <span class="md-header-nav__topic">
-              OS Installation Guide
+              Download RavanOS Secure Boot Mode
             </span>
 </div>
 </div>
@@ -161,39 +158,10 @@
         Installation, configuration, maintenance OS
       </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-        OS Installation Guide
-      </label>
-<a class="md-nav__link md-nav__link--active" href="./" title="OS Installation Guide">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../os-installation-guide/" title="OS Installation Guide">
       OS Installation Guide
     </a>
-<nav class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">Table of contents</label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#general-os-provisions" title="General OS Provisions">
-    General OS Provisions
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#system-requirements" title="System Requirements">
-    System Requirements
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#preparation-for-installation" title="Preparation for Installation">
-    Preparation for Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sequence-of-basic-steps-in-installing-the-os" title="Sequence of Basic Steps in Installing the Os">
-    Sequence of Basic Steps in Installing the Os
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../ravanos-cle-updates/" title="RavanOS CLE Updates">
@@ -205,8 +173,9 @@
       RavanOS Create Bootable USB Drive
     </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../download-ravanos-to-secureboot-mode/" title="Download RavanOS Secure Boot Mode">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./" title="Download RavanOS Secure Boot Mode">
       Download RavanOS Secure Boot Mode
     </a>
 </li>
@@ -228,106 +197,46 @@
 </div>
 </div>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">Table of contents</label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#general-os-provisions" title="General OS Provisions">
-    General OS Provisions
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#system-requirements" title="System Requirements">
-    System Requirements
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#preparation-for-installation" title="Preparation for Installation">
-    Preparation for Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sequence-of-basic-steps-in-installing-the-os" title="Sequence of Basic Steps in Installing the Os">
-    Sequence of Basic Steps in Installing the Os
-  </a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
 <div class="md-content">
-<article class="md-content__inner md-typeset"><a class="md-icon md-content__icon" download href="os-installation-guide.pdf" title="PDF Export"></a>
-<a class="md-icon md-content__icon" href="https://github.com/ravanos/ravanos-wiki/edit/master/docs/os-installation-guide.md" title="Edit this page"></a>
-<h1 id="os-installation-guide">OS Installation Guide<a class="headerlink" href="#os-installation-guide" title="Permanent link">¶</a></h1>
-<p>RavanOS Common Linux Edition Installation Guide.</p>
-<p>This guide will provide you all necessary information to install RavanOS common linux edition in your physical and virtual hardware.</p>
-<h2 id="general-os-provisions">General OS Provisions<a class="headerlink" href="#general-os-provisions" title="Permanent link">¶</a></h2>
-<p>General-purpose operating system "RavanOS Linux Common Edition”  is a universal Linux distribution intended for
-ensuring the functionality of modern computers in solving a wide range of custom tasks.</p>
-<p>First you need  to download installation DVD-ROM from RavanOS Linux Common Edition at <a href="https://mirror.ravanos.org/common/iso">https://mirror.ravanos.org/common/iso</a>.
-This installation media contain an operating system boot module together with all necessary files to complete the installation process into a harddisk of the target computer. The OS can also be installed from a USB drive or over a network installation server.</p>
-<h2 id="system-requirements">System Requirements<a class="headerlink" href="#system-requirements" title="Permanent link">¶</a></h2>
-<p>The OS supports parallel use of multiple processors, so-called Symmetric Multi-Processing (SMP). When the OS boots, the kernel will automatically determine the number of processors (or kernels).</p>
-<p>To enable the console terminal to work during installation, you need a VGA compatible video interface. C-VGA is compatible with almost any modern video card.</p>
-<p>GUI support in the installed OS is fully determined by X.Org X11 system. Most AGP, PCI and PCIe cards work under X.Org.
-The installer contains all the network card drivers supported by the kernel which rum Linux kernel version 4.15.xx. This applies to almost all PCI and PCMCIA cards. To perform the installation of the OS  at least with the base configuration, the computer must have at least 1 GB of RAM  and at least 4 GB of free hard disk space drive.</p>
-<h2 id="preparation-for-installation">Preparation for Installation<a class="headerlink" href="#preparation-for-installation" title="Permanent link">¶</a></h2>
-<p>Before you start installing the OS on the target computer, it is recommended to perform the following necessary actions:</p>
-<ol>
-<li>
-<p>Make a backup copy of existing data and documents stored on the hard disk on which you plan to install.</p>
-</li>
-<li>
-<p>Allocate space on the hard disk under the installed OS.</p>
-</li>
-<li>
-<p>Prepare a DVD with the OS distribution.</p>
-</li>
-<li>
-<p>Copy the necessary files to the USB disk from the OS installation DVD if you plan to install using USB disk.</p>
-</li>
-<li>
-<p>Carry out ,if necessary, the BIOS setup of the target computer to ensure Cookies can be downloaded from the selected media.</p>
-</li>
-</ol>
-<h2 id="sequence-of-basic-steps-in-installing-the-os">Sequence of Basic Steps in Installing the Os<a class="headerlink" href="#sequence-of-basic-steps-in-installing-the-os" title="Permanent link">¶</a></h2>
-<p>Actions that must be performed to install the OS:</p>
-<ol>
-<li>
-<p>Download the OS installer from the media.</p>
-</li>
-<li>
-<p>Select the installation program and hardware settings.</p>
-</li>
-<li>
-<p>Activate ,if any, the connection to the Ethernet network.</p>
-</li>
-<li>
-<p>Create an administrator account and password.</p>
-</li>
-<li>
-<p>Adjust the time.</p>
-</li>
-<li>
-<p>Create and mount disk partitions on which the OS will be installed.</p>
-</li>
-<li>
-<p>Select and install the necessary software.</p>
-</li>
-<li>
-<p>Select and install additional OS settings.</p>
-</li>
-<li>
-<p>Install and configure the GRUB bootloader.</p>
-</li>
-<li>
-<p>Load the installed OS for the first time.</p>
-</li>
-</ol>
+<article class="md-content__inner md-typeset"><a class="md-icon md-content__icon" download href="download-ravanos-to-secureboot-mode.pdf" title="PDF Export"></a>
+<a class="md-icon md-content__icon" href="https://github.com/ravanos/ravanos-wiki/edit/master/docs/download-ravanos-to-secureboot-mode.md" title="Edit this page"></a>
+<h1>Download RavanOS Secure Boot Mode</h1>
+<p>Download RavanOS to SecureBoot mode</p>
+<p>Install SecureBoot</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Installing Astra Linux and subsequent actions should be done only in UEFI mode (ie, with CSM and Legacy modes disabled in BIOS).</p>
+</div>
+<p>For RavanOS SE (OS CH Smolensk) versions 1.5. * - 1.6 and RavanOS CE (OS OH Orel) versions 2.11. * - 2.12, you must install the package astra-safepolicyversion 1.0.32 and higher.</p>
+<p>For RavanOS SE (CH Smolensk OS) version 1.5 and RavanOS CE (OH Eagle OS) version 1.11, you must install the packages efitoolsand sbsigntoolthe repository refresh and package astra-safepolicyversion 1.0.32 or higher.</p>
+<p>Connect USB flash. In the process, all data on it will be deleted.</p>
+<p>Run the command:</p>
+<div class="codehilite"><pre><span></span>```sudo astra-secureboot / dev / {usb_flash}```
+</pre></div>
+<p>After executing the command, all the necessary keys will be located in the <code>/ root / secureboot / key directory</code>, a bootable USB flash will be created with the necessary files.</p>
+<p>Reboot the system. In BIOS (or the F12 function key) select the boot option with UEFI: USB</p>
+<p>If everything is done correctly, then KeyTool should load.</p>
+<p>In the menu,<code>KeyToolselectEdit Keys</code>.</p>
+<p>In <code>it, select db, then Replace Keys</code>, then your USB device, and then the file <code>efi / -&gt; boot / -&gt; keys / -&gt; db.auth</code>.</p>
+<p>Repeat the same for first <code>KEK</code>, then for <code>PK</code>, then go to the main menu by double pressing Esc and select Exit.</p>
+<p>After that, reboot, go to BIOS and turn on the mode SecureBoot.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>With SecureBoot mode enabled, the modes Hibernate and Hybrid-Sleep will not be available.</p>
+</div>
+<p>Disable SecureBoot</p>
+<p>Recommended shutdown script:</p>
+<div class="codehilite"><pre><span></span>1. Delete the file `/etc/initramfs/post-update.d/update-efi-image`;
+
+2. Save a copy of the file `/boot/efi/EFI/astralinux/grubx64.efi`;
+
+3. Reinstall the grub bootloader.
+</pre></div>
+<p>The sequence of commands:</p>
+<div class="codehilite"><pre><span></span>if [-f /etc/initramfs/post-update.d/update-efi-image]; then rm /etc/initramfs/post-update.d/update-efi-image; fi
+mv / boot/efi/EFI/ravanos/grubx64.efi /boot/efi/EFI/ravanos/grubx64.efi-old
+grub-install - bootloader-id = ravanos
+</pre></div>
 </article>
 </div>
 </div>
@@ -335,7 +244,7 @@ The installer contains all the network card drivers supported by the kernel whic
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav class="md-footer-nav__inner md-grid">
-<a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href=".." rel="prev" title="RavanOS Common Linux Edition">
+<a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href="../ravanos-create-bootable-USB-flash-drive/" rel="prev" title="RavanOS Create Bootable USB Drive">
 <div class="md-flex__cell md-flex__cell--shrink">
 <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
 </div>
@@ -344,17 +253,17 @@ The installer contains all the network card drivers supported by the kernel whic
 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                RavanOS Common Linux Edition
+                RavanOS Create Bootable USB Drive
               </span>
 </div>
 </a>
-<a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../ravanos-cle-updates/" rel="next" title="RavanOS CLE Updates">
+<a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../list-of-packages-in-the-distribution/" rel="next" title="List of Packages in the Distribution`">
 <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
 <span class="md-flex__ellipsis">
 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                RavanOS CLE Updates
+                List of Packages in the Distribution`
               </span>
 </div>
 <div class="md-flex__cell md-flex__cell--shrink">

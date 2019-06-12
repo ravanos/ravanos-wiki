@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="ie=edge" http-equiv="x-ua-compatible"/>
-<link href="https://wiki.ravanos.org/os-installation-guide/" rel="canonical"/>
+<link href="https://wiki.ravanos.org/installing-os-eagle-os-2.12-on-fake-raid/" rel="canonical"/>
 <meta content="Copy to clipboard" name="lang:clipboard.copy"/>
 <meta content="Copied to clipboard" name="lang:clipboard.copied"/>
 <meta content="en" name="lang:search.language"/>
@@ -18,7 +18,7 @@
 <meta content="[\s\-]+" name="lang:search.tokenizer"/>
 <link href="../images/favicon.png" rel="shortcut icon"/>
 <meta content="mkdocs-1.0.4, mkdocs-material-4.0.2" name="generator"/>
-<title>OS Installation Guide - RAVANOS Documentation</title>
+<title>Installing OS Eagle OS 2.12 on Fake RAID - RAVANOS Documentation</title>
 <link href="../assets/stylesheets/application.982221ab.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/application-palette.224b79ff.css" rel="stylesheet"/>
 <meta content="#2196f3" name="theme-color"/>
@@ -77,9 +77,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-<a class="md-skip" href="#os-installation-guide" tabindex="1">
-        Skip to content
-      </a>
 <header class="md-header" data-md-component="header">
 <nav class="md-header-nav md-grid">
 <div class="md-flex">
@@ -97,7 +94,7 @@
               RAVANOS Documentation
             </span>
 <span class="md-header-nav__topic">
-              OS Installation Guide
+              Installing OS Eagle OS 2.12 on Fake RAID
             </span>
 </div>
 </div>
@@ -161,39 +158,10 @@
         Installation, configuration, maintenance OS
       </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-        OS Installation Guide
-      </label>
-<a class="md-nav__link md-nav__link--active" href="./" title="OS Installation Guide">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../os-installation-guide/" title="OS Installation Guide">
       OS Installation Guide
     </a>
-<nav class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">Table of contents</label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#general-os-provisions" title="General OS Provisions">
-    General OS Provisions
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#system-requirements" title="System Requirements">
-    System Requirements
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#preparation-for-installation" title="Preparation for Installation">
-    Preparation for Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sequence-of-basic-steps-in-installing-the-os" title="Sequence of Basic Steps in Installing the Os">
-    Sequence of Basic Steps in Installing the Os
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../ravanos-cle-updates/" title="RavanOS CLE Updates">
@@ -215,8 +183,9 @@
       List of Packages in the Distribution`
     </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../installing-os-eagle-os-2.12-on-fake-raid/" title="Installing OS Eagle OS 2.12 on Fake RAID">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./" title="Installing OS Eagle OS 2.12 on Fake RAID">
       Installing OS Eagle OS 2.12 on Fake RAID
     </a>
 </li>
@@ -228,105 +197,31 @@
 </div>
 </div>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">Table of contents</label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#general-os-provisions" title="General OS Provisions">
-    General OS Provisions
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#system-requirements" title="System Requirements">
-    System Requirements
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#preparation-for-installation" title="Preparation for Installation">
-    Preparation for Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sequence-of-basic-steps-in-installing-the-os" title="Sequence of Basic Steps in Installing the Os">
-    Sequence of Basic Steps in Installing the Os
-  </a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
 <div class="md-content">
-<article class="md-content__inner md-typeset"><a class="md-icon md-content__icon" download href="os-installation-guide.pdf" title="PDF Export"></a>
-<a class="md-icon md-content__icon" href="https://github.com/ravanos/ravanos-wiki/edit/master/docs/os-installation-guide.md" title="Edit this page"></a>
-<h1 id="os-installation-guide">OS Installation Guide<a class="headerlink" href="#os-installation-guide" title="Permanent link">¶</a></h1>
-<p>RavanOS Common Linux Edition Installation Guide.</p>
-<p>This guide will provide you all necessary information to install RavanOS common linux edition in your physical and virtual hardware.</p>
-<h2 id="general-os-provisions">General OS Provisions<a class="headerlink" href="#general-os-provisions" title="Permanent link">¶</a></h2>
-<p>General-purpose operating system "RavanOS Linux Common Edition”  is a universal Linux distribution intended for
-ensuring the functionality of modern computers in solving a wide range of custom tasks.</p>
-<p>First you need  to download installation DVD-ROM from RavanOS Linux Common Edition at <a href="https://mirror.ravanos.org/common/iso">https://mirror.ravanos.org/common/iso</a>.
-This installation media contain an operating system boot module together with all necessary files to complete the installation process into a harddisk of the target computer. The OS can also be installed from a USB drive or over a network installation server.</p>
-<h2 id="system-requirements">System Requirements<a class="headerlink" href="#system-requirements" title="Permanent link">¶</a></h2>
-<p>The OS supports parallel use of multiple processors, so-called Symmetric Multi-Processing (SMP). When the OS boots, the kernel will automatically determine the number of processors (or kernels).</p>
-<p>To enable the console terminal to work during installation, you need a VGA compatible video interface. C-VGA is compatible with almost any modern video card.</p>
-<p>GUI support in the installed OS is fully determined by X.Org X11 system. Most AGP, PCI and PCIe cards work under X.Org.
-The installer contains all the network card drivers supported by the kernel which rum Linux kernel version 4.15.xx. This applies to almost all PCI and PCMCIA cards. To perform the installation of the OS  at least with the base configuration, the computer must have at least 1 GB of RAM  and at least 4 GB of free hard disk space drive.</p>
-<h2 id="preparation-for-installation">Preparation for Installation<a class="headerlink" href="#preparation-for-installation" title="Permanent link">¶</a></h2>
-<p>Before you start installing the OS on the target computer, it is recommended to perform the following necessary actions:</p>
+<article class="md-content__inner md-typeset"><a class="md-icon md-content__icon" download href="installing-os-eagle-os-2.12-on-fake-raid.pdf" title="PDF Export"></a>
+<a class="md-icon md-content__icon" href="https://github.com/ravanos/ravanos-wiki/edit/master/docs/installing-os-eagle-os-2.12-on-fake-raid.md" title="Edit this page"></a>
+<h1>Installing OS Eagle OS 2.12 on Fake RAID</h1>
+<p>Installing OS Eagle OS 2.12 on Fake RAID (Host RAID)</p>
+<p>In RavanOS Common Edition OS Eagle 2.12.4 in BIOS UEFI and Legacy mode, to display RAID in the installation program, when determining drives, you must:</p>
 <ol>
 <li>
-<p>Make a backup copy of existing data and documents stored on the hard disk on which you plan to install.</p>
+<p>Move the cursor to the item “Graphic installation” in the setup menu (without pressing the Enter key);</p>
 </li>
 <li>
-<p>Allocate space on the hard disk under the installed OS.</p>
+<p>To switch to the mode of changing the kernel boot parameters, click:</p>
+<p>When installed in BIOS UEFI mode - the E key
+When installed in Legacy mode - the F2 key;</p>
 </li>
 <li>
-<p>Prepare a DVD with the OS distribution.</p>
-</li>
-<li>
-<p>Copy the necessary files to the USB disk from the OS installation DVD if you plan to install using USB disk.</p>
-</li>
-<li>
-<p>Carry out ,if necessary, the BIOS setup of the target computer to ensure Cookies can be downloaded from the selected media.</p>
+<p>Add at the end of the boot parameter line:</p>
 </li>
 </ol>
-<h2 id="sequence-of-basic-steps-in-installing-the-os">Sequence of Basic Steps in Installing the Os<a class="headerlink" href="#sequence-of-basic-steps-in-installing-the-os" title="Permanent link">¶</a></h2>
-<p>Actions that must be performed to install the OS:</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>dmraid = true</p>
+</div>
 <ol>
-<li>
-<p>Download the OS installer from the media.</p>
-</li>
-<li>
-<p>Select the installation program and hardware settings.</p>
-</li>
-<li>
-<p>Activate ,if any, the connection to the Ethernet network.</p>
-</li>
-<li>
-<p>Create an administrator account and password.</p>
-</li>
-<li>
-<p>Adjust the time.</p>
-</li>
-<li>
-<p>Create and mount disk partitions on which the OS will be installed.</p>
-</li>
-<li>
-<p>Select and install the necessary software.</p>
-</li>
-<li>
-<p>Select and install additional OS settings.</p>
-</li>
-<li>
-<p>Install and configure the GRUB bootloader.</p>
-</li>
-<li>
-<p>Load the installed OS for the first time.</p>
-</li>
+<li>Press Enter and start the installation of the operating system.</li>
 </ol>
 </article>
 </div>
@@ -335,7 +230,7 @@ The installer contains all the network card drivers supported by the kernel whic
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav class="md-footer-nav__inner md-grid">
-<a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href=".." rel="prev" title="RavanOS Common Linux Edition">
+<a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href="../list-of-packages-in-the-distribution/" rel="prev" title="List of Packages in the Distribution`">
 <div class="md-flex__cell md-flex__cell--shrink">
 <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
 </div>
@@ -344,21 +239,8 @@ The installer contains all the network card drivers supported by the kernel whic
 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                RavanOS Common Linux Edition
+                List of Packages in the Distribution`
               </span>
-</div>
-</a>
-<a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../ravanos-cle-updates/" rel="next" title="RavanOS CLE Updates">
-<div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-<span class="md-flex__ellipsis">
-<span class="md-footer-nav__direction">
-                  Next
-                </span>
-                RavanOS CLE Updates
-              </span>
-</div>
-<div class="md-flex__cell md-flex__cell--shrink">
-<i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
 </div>
 </a>
 </nav>

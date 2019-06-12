@@ -1,4 +1,4 @@
-Installing OS Eagle OS 2.12 on Fake RAID (Host RAID)
+Installing RavanOS on Fake RAID (Host RAID)
 
 In RavanOS Common Edition OS Eagle 2.12.4 in BIOS UEFI and Legacy mode, to display RAID in the installation program, when determining drives, you must:
 
