@@ -45,7 +45,7 @@ nav:
   - 'Download RavanOS Secure Boot Mode': 'download-ravanos-to-secureboot-mode.md'
   - 'List of Packages in the Distribution`': 'list-of-packages-in-the-distribution.md'
   - 'Installing OS Eagle OS 2.12 on Fake RAID': 'installing-os-eagle-os-2.12-on-fake-raid.md'
-  - 'Installing OS Oryol 2.12 on Soft RAID' : 'installing-os=oryol-2.12-on-soft-raid.md'
+  - 'Installing OS Oryol 2.12 on Soft RAID': 'installing-os=oryol-2.12-on-soft-raid.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
