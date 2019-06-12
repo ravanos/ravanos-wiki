@@ -41,6 +41,7 @@ nav:
 - 'Installation, configuration, maintenance OS':
   - 'OS Installation Guide': 'os-installation-guide.md'
   - 'RavanOS CLE Updates': 'ravanos-cle-updates.md'
+  - 'RavanOS Create Bootable USB Drive': 'ravanos-create-bootable-USB-flash-drive.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
