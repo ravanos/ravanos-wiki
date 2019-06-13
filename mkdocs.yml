@@ -46,6 +46,7 @@ nav:
   - 'List of Packages in the Distribution': 'list-of-packages-in-the-distribution.md'
   - 'Installing RavanOS on Fake RAID': 'installing-ravanos-on-fake-raid.md'
   - 'Setup-Swap-Area': 'setup-swap-area.md'
+  - 'Build Software RAID 0.md': 'build-software-raid-0.md'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
