@@ -46,7 +46,7 @@ nav:
   - 'List of Packages in the Distribution': 'list-of-packages-in-the-distribution.md'
   - 'Installing RavanOS on Fake RAID': 'installing-ravanos-on-fake-raid.md'
   - 'Installing RavanOS on Soft RAID': 'installing-ravanos-on-soft-raid.md'
-  - 'Swap Application and Security Features': 'swap-application-and-security-features.md'
+  - 'Setup-Swap-Area': 'setup-swap-area'
 extra:
   logo: 'images/ravanoslogo.png'
   social:
