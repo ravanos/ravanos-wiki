@@ -48,7 +48,7 @@ nav:
   - 'Setup-Swap-Area': 'setup-swap-area.md'
   - 'Build Software RAID 0.md': 'build-software-raid-0.md'
   - 'RavanOS initrd with a full set of modules': 'ravanos-initrd-with-a-full-set-of-modules.md'
-  - 'Connecting Repositories with Packages in RavanOS and Installing Packages': ;'connecting-repositories-with-packages-in-ravanos-and-installing-packages.md'
+  - 'Connecting Repositories with Packages in RavanOS and Installing Packages': 'connecting-repositories-with-packages-in-ravanos-and-installing-packages.md'
 
 extra:
   logo: 'images/ravanoslogo.png'
